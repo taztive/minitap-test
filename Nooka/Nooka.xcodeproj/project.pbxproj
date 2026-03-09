@@ -7,14 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		NookaApp001 /* NookaApp.swift in Sources */ = {isa = PBXBuildFile; };
-		NookaApp002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; };
-		NookaApp003 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; };
-		NookaApp004 /* Nooka.xcdatamodeld in Sources */ = {isa = PBXBuildFile; };
+		NookaApp001 /* NookaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = NookaFile001; };
+		NookaApp002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = NookaFile002; };
+		NookaApp003 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = NookaFile003; };
+		NookaApp004 /* Nooka.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = NookaFile004; };
+		NookaApp005 /* CalendarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = NookaFile005; };
+		NookaApp006 /* StampCreationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = NookaFile006; };
+		NookaApp007 /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = NookaFile007; };
+		NookaApp008 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = NookaFile008; };
+		NookaApp009 /* Typography.swift in Sources */ = {isa = PBXBuildFile; fileRef = NookaFile009; };
+		NookaApp010 /* Spacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = NookaFile010; };
+		NookaApp011 /* DesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = NookaFile011; };
+		NookaApp012 /* Stamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = NookaFile012; };
+		NookaApp013 /* StampEntry+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = NookaFile013; };
+		NookaApp014 /* StampEntry+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = NookaFile014; };
+		NookaApp015 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = NookaFile015; };
+		NookaApp016 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = NookaFile016; };
+		NookaApp017 /* CreateStampView.swift in Sources */ = {isa = PBXBuildFile; fileRef = NookaFile017; };
+		NookaApp018 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = NookaFile018; };
+		NookaApp019 /* NookaCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = NookaFile019; };
+		NookaApp020 /* NookaButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = NookaFile020; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		NookaRef001 /* Nooka.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nooka.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		NookaFile001 /* NookaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NookaApp.swift; sourceTree = "<group>"; };
+		NookaFile002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		NookaFile003 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		NookaFile004 /* Nooka.xcdatamodeld */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Nooka.xcdatamodeld; sourceTree = "<group>"; };
+		NookaFile005 /* CalendarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewModel.swift; sourceTree = "<group>"; };
+		NookaFile006 /* StampCreationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StampCreationViewModel.swift; sourceTree = "<group>"; };
+		NookaFile007 /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
+		NookaFile008 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		NookaFile009 /* Typography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typography.swift; sourceTree = "<group>"; };
+		NookaFile010 /* Spacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spacing.swift; sourceTree = "<group>"; };
+		NookaFile011 /* DesignSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystem.swift; sourceTree = "<group>"; };
+		NookaFile012 /* Stamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stamp.swift; sourceTree = "<group>"; };
+		NookaFile013 /* StampEntry+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StampEntry+CoreDataClass.swift"; sourceTree = "<group>"; };
+		NookaFile014 /* StampEntry+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StampEntry+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		NookaFile015 /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
+		NookaFile016 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		NookaFile017 /* CreateStampView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateStampView.swift; sourceTree = "<group>"; };
+		NookaFile018 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		NookaFile019 /* NookaCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NookaCard.swift; sourceTree = "<group>"; };
+		NookaFile020 /* NookaButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NookaButton.swift; sourceTree = "<group>"; };
+		NookaFile021 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +76,15 @@
 		NookaGroup002 /* Nooka */ = {
 			isa = PBXGroup;
 			children = (
+				NookaGroup004 /* App */,
+				NookaGroup005 /* Models */,
+				NookaGroup006 /* ViewModels */,
+				NookaGroup007 /* Views */,
+				NookaGroup008 /* Services */,
+				NookaGroup009 /* Design */,
+				NookaGroup010 /* Utilities */,
+				NookaGroup011 /* Resources */,
+				NookaFile021 /* Info.plist */,
 			);
 			path = Nooka;
 			sourceTree = "<group>";
@@ -49,6 +95,114 @@
 				NookaRef001 /* Nooka.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		NookaGroup004 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				NookaFile001 /* NookaApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		NookaGroup005 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				NookaFile012 /* Stamp.swift */,
+				NookaFile013 /* StampEntry+CoreDataClass.swift */,
+				NookaFile014 /* StampEntry+CoreDataProperties.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		NookaGroup006 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				NookaFile005 /* CalendarViewModel.swift */,
+				NookaFile006 /* StampCreationViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		NookaGroup007 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				NookaFile002 /* ContentView.swift */,
+				NookaFile018 /* SettingsView.swift */,
+				NookaGroup012 /* Calendar */,
+				NookaGroup013 /* StampCreation */,
+				NookaGroup014 /* Components */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		NookaGroup008 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				NookaFile007 /* PersistenceController.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		NookaGroup009 /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				NookaFile008 /* Colors.swift */,
+				NookaFile009 /* Typography.swift */,
+				NookaFile010 /* Spacing.swift */,
+				NookaFile011 /* DesignSystem.swift */,
+			);
+			path = Design;
+			sourceTree = "<group>";
+		};
+		NookaGroup010 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				NookaGroup015 /* Extensions */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		NookaGroup011 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				NookaFile003 /* Assets.xcassets */,
+				NookaFile004 /* Nooka.xcdatamodeld */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		NookaGroup012 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				NookaFile016 /* CalendarView.swift */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		NookaGroup013 /* StampCreation */ = {
+			isa = PBXGroup;
+			children = (
+				NookaFile017 /* CreateStampView.swift */,
+			);
+			path = StampCreation;
+			sourceTree = "<group>";
+		};
+		NookaGroup014 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				NookaFile019 /* NookaCard.swift */,
+				NookaFile020 /* NookaButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		NookaGroup015 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				NookaFile015 /* Date+Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,6 +272,22 @@
 				NookaApp001 /* NookaApp.swift in Sources */,
 				NookaApp002 /* ContentView.swift in Sources */,
 				NookaApp004 /* Nooka.xcdatamodeld in Sources */,
+				NookaApp005 /* CalendarViewModel.swift in Sources */,
+				NookaApp006 /* StampCreationViewModel.swift in Sources */,
+				NookaApp007 /* PersistenceController.swift in Sources */,
+				NookaApp008 /* Colors.swift in Sources */,
+				NookaApp009 /* Typography.swift in Sources */,
+				NookaApp010 /* Spacing.swift in Sources */,
+				NookaApp011 /* DesignSystem.swift in Sources */,
+				NookaApp012 /* Stamp.swift in Sources */,
+				NookaApp013 /* StampEntry+CoreDataClass.swift in Sources */,
+				NookaApp014 /* StampEntry+CoreDataProperties.swift in Sources */,
+				NookaApp015 /* Date+Extensions.swift in Sources */,
+				NookaApp016 /* CalendarView.swift in Sources */,
+				NookaApp017 /* CreateStampView.swift in Sources */,
+				NookaApp018 /* SettingsView.swift in Sources */,
+				NookaApp019 /* NookaCard.swift in Sources */,
+				NookaApp020 /* NookaButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
